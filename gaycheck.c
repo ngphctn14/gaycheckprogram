@@ -30,6 +30,7 @@ int length(char *a) {
 
 int isSameStr(char *a, char *b) {
     int i, j;
+    if(length(a)!=length(b)) return 0;
     for(i=0, j=0; i<length(a); i++, j++) {
         if(a[i]!=b[j]) return 0;
     }
