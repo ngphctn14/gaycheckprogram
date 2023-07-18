@@ -38,8 +38,5 @@ int isSameStr(char *a, char *b) {
 }
 
 int isGay(char *str) {
-    if(isSameStr(str, "bat ky") || isSameStr(str, "tran tuan anh") || isSameStr(str, "anh tuat") || isSameStr(str, "anh") || isSameStr(str, "tuat") || isSameStr(str, "bac ky") || isSameStr(str, "tran anh tuat") || isSameStr(str, "tran tuat anh") || isSameStr(str, "tuan anh") || isSameStr(str, "tuat anh") || isSameStr(str, "bat") || isSameStr(str, "bui hinh danh hoang"))
-        return 1;
-    else
-        return 0;
+    return (isSameStr(str, "bat ky") || isSameStr(str, "tran tuan anh") || isSameStr(str, "anh tuat") || isSameStr(str, "anh") || isSameStr(str, "tuat") || isSameStr(str, "bac ky") || isSameStr(str, "tran anh tuat") || isSameStr(str, "tran tuat anh") || isSameStr(str, "tuan anh") || isSameStr(str, "tuat anh") || isSameStr(str, "bat") || isSameStr(str, "bui hinh danh hoang"));
 }
